@@ -1,10 +1,11 @@
 <?php
 /**
- * Plugin Name: Custom Donation Progress
+ * Plugin Name: Donation for woocommerce - progress add-on
  * Description: Adds a "funded" category to products when donation goals are met.
  * Version: 1.0
  * Author: Talha Ansari
  * Author URI: https://wa.me/+919022172070
+ * Hey above is my whatsapp number so if you like we can do communicate outside.but please don't discuss it on fiverr.
  * Text Domain: custom-donation-progress
  */
 
@@ -19,6 +20,7 @@ if (!defined('ABSPATH')) {
  * @param WC_Product $product The WooCommerce product object.
  * @param object $object The donation goal and progress data object.
  */
+
 
 // Ensure "Funded" category exists only once, at plugin activation
 function ensure_funded_category_exists() {
